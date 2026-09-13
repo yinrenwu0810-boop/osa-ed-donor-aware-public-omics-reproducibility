@@ -1,0 +1,54 @@
+{
+  "title": "OSA-ED donor-aware public-omics reproducibility archive",
+  "version": "1.0.1",
+  "description": "Versioned analysis and figure-generation scripts, panel-level derived figure source-data tables, and frozen SHA-256 input manifests for a public-data, donor-aware, cross-dataset OSA-ED hypothesis-prioritization analysis. This archive does not establish causality, diagnostic performance, therapeutic targets, experimental validation, or a biological mechanism.",
+  "creators": [
+    {
+      "name": "Yin, Renwu",
+      "orcid": "0009-0004-8466-6658",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Zhang, Jun",
+      "affiliation": "Department of Pulmonary and Critical Care Medicine, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Li, Siyu",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Chang, Guangze",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Li, Yuanyuan",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Li, Bing",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Liang, Shijie",
+      "affiliation": "Department of Urology, Shanghai Xuhui District Dahua Hospital, Shanghai, China"
+    },
+    {
+      "name": "Yang, Yantao",
+      "affiliation": "Pudong Hospital of Traditional Chinese Medicine, Shanghai, China"
+    },
+    {
+      "name": "Chen, Lei",
+      "affiliation": "Department of Urology, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China"
+    }
+  ],
+  "access_right": "open",
+  "upload_type": "software",
+  "language": "eng",
+  "keywords": [
+    "obstructive sleep apnea",
+    "erectile dysfunction",
+    "public omics",
+    "reproducibility",
+    "donor-aware analysis"
+  ]
+}

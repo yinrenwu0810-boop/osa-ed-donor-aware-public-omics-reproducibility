@@ -8,6 +8,7 @@ This repository archives the versioned analysis and figure-generation scripts, p
 - `scripts/analysis_revision_v2/`: versioned analysis scripts preserved from `revision_v2`, including virtual-perturbation workflow scripts.
 - `figures/Figure*/source_data/`: panel-level source data used to render the eight main figures.
 - `freeze_manifest/figure_contracts/`: Figure 1-8 contracts, the 54-item SHA-256 frozen-input manifest, and the freeze-status record.
+- `.zenodo.json`: versioned Zenodo release metadata, including the creator list supplied by the authors.
 - `RELEASE_MANIFEST.sha256.tsv`: SHA-256 inventory for every file in this release.
 
 ## Scope and scientific boundaries
