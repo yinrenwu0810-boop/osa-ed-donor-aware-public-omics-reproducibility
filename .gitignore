@@ -1,0 +1,27 @@
+# Deliberately exclude generated and potentially sensitive/raw research materials.
+*.h5ad
+*.h5
+*.loom
+*.fastq
+*.fastq.gz
+*.bam
+*.cram
+*.vcf
+*.pdf
+*.docx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.zip
+*.7z
+*.tar
+*.gz
+!figures/**/source_data/*.tsv.gz
+__pycache__/
+.Rhistory
+*.RData
+*.Rproj.user

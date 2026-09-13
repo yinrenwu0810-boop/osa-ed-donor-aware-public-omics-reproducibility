@@ -1,0 +1,9 @@
+filter	count	order
+"All three
+same direction"	1766	1
+"Directional
+stability screen"	1035	2
+"Full meta
+FDR < 0.05"	1282	3
+"All-three LODO
+FDR < 0.05"	258	4

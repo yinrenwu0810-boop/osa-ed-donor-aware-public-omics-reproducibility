@@ -1,0 +1,6 @@
+metric	value
+common_genes	5139
+full_meta_FDR_lt_0_05	1282
+three_study_all_same_direction	1766
+directional_stability_screen	1035
+strict_all_three_lodo_FDR_lt_0_05	258

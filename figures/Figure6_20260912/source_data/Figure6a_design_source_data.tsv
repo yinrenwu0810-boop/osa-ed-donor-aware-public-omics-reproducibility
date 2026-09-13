@@ -1,0 +1,2 @@
+main_runs	matched_controls	targets	donor_backgrounds	seeds_per_target_donor	technical_repeat_note
+45	90	3	3	5	Seeds are technical/model repeats, not biological replicates.

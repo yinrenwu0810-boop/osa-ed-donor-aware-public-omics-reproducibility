@@ -1,0 +1,5 @@
+layer	datasets_or_context	independent_unit	role	causal_interpretation
+IH endothelial discovery	GSE243023; GSE205050; GSE10723	study-specific bulk samples	exposure-associated discovery	not a causal link
+OSA/CPAP clinical context	OSA versus control (AM); CPAP versus OSA (AM)	participants in original clinical comparisons	strict pathway bridge	not an ED cohort
+ED corpus-cavernosum target tissue	GSE206528 donor pseudobulk	donor	target-tissue localization	procurement context is group-confounded
+Model-based prioritization	predeclared virtual perturbation	model output; seeds are not biological replicates	hypothesis prioritization	not experimental validation

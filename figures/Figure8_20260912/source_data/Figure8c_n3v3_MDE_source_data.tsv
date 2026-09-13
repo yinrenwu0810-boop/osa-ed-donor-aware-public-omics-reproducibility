@@ -1,0 +1,3 @@
+analysis	n_control	n_case	unit	target_power	alpha	minimum_detectable_cohens_d
+GSE206528_nonDM_ED_vs_normal	3	3	donor	0.8	0.05	3.070892269599019
+GSE206528_nonDM_ED_vs_normal	3	3	donor	0.9	0.05	3.589205576534904

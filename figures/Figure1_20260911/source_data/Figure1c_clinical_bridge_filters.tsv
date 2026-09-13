@@ -1,0 +1,6 @@
+metric	value
+hallmark_pathways_total	50
+all_four_estimated	49
+complete_directional_pattern	12
+all_four_FDR_pass	3
+strict_clinical_bridge_pass	1

@@ -1,0 +1,55 @@
+source_id	figures	role	relative_path	classification	note
+S001	ALL	governing_plan	revision_v2/PLAN_20260911_ENGLISH_MANUSCRIPT_AND_FIGURE_EXPANSION_MERGED_v3.md	FROZEN_PLAN	Merged V3 plan; journal adaptation is recorded separately.
+S002	ALL	prior_english_draft	revision_v2/03_manuscript/manuscript_en.v2.src.md	TEXT_REFERENCE_ONLY	Numbers and wording require trace-back to formal tables.
+S003	ALL	virtual_perturbation_text	revision_v2/07_virtual_perturbation/09_manuscript_integration/manuscript_zh.v3_virtual_perturbation.src.md	TEXT_REFERENCE_ONLY	Use for narrative provenance, not as numerical source.
+S010	1,2	endothelial_count_summary	revision_v2/02_results/endothelial_three_study_summary_v2.tsv	SEALED_RESULT	Counts for 5,139; 1,282; 1,766; 1,035; and 258.
+S011	2	endothelial_gene_evidence	revision_v2/02_results/endothelial_three_study_evidence_v2.tsv	SEALED_RESULT	Gene-level three-study and LODO evidence.
+S012	1	hallmark_bridge_summary	revision_v2/02_results/Hallmark_clinical_bridge_summary_v2.tsv	SEALED_RESULT	Counts for 50 to 49 to 12 to 3 to 1.
+S013	1	hallmark_bridge_full	revision_v2/02_results/Hallmark_clinical_bridge_v2.tsv	SEALED_RESULT	Strict bridge classification and all context-specific NES/FDR values.
+S014	1	hallmark_bridge_long	revision_v2/02_results/figure_source_data/Figure1_Hallmark_bridge_source_data_v2.tsv	SEALED_FIGURE_SOURCE	Long-form bridge plotting table.
+S020	2	volcano_GSE243023	analysis/results/GSE243023/differential_IH_CTRL_vs_normoxia_CTRL.tsv	SEALED_RESULT	Prespecified endothelial IH comparison.
+S021	2	volcano_GSE205050	analysis/results/GSE205050/differential_IH_vehicle_vs_normoxia_vehicle.tsv	SEALED_RESULT	Prespecified endothelial IH comparison.
+S022	2	volcano_GSE10723	analysis/results/GSE10723/differential_IH_vs_control.tsv	SEALED_RESULT	Prespecified endothelial IH comparison.
+S023	2	bulk_effect_matrix	analysis/results/integration/bulk_gene_evidence_matrix.tsv	SEALED_RESULT	Shared effect columns for cross-study density panels.
+S024	2	bulk_effect_correlations	analysis/results/integration/bulk_effect_spearman_correlations.tsv	SEALED_RESULT	Reported correlation coefficients.
+S025	2	hallmark_cross_dataset	analysis/results/integration/Hallmark_cross_dataset_evidence.tsv	SEALED_RESULT	Hallmark NES/FDR across evidence contexts.
+S026	2	reactome_summary	analysis/results/phase3/reactome_multilevel/Reactome_multilevel_summary.tsv	SEALED_RESULT	Reactome test-family summary.
+S027	2	reactome_endothelial_meta	analysis/results/phase3/reactome_multilevel/Endothelial_IH_meta_Reactome_fgseaMultilevel.tsv	SEALED_RESULT	Full endothelial meta Reactome results.
+S030	3	umap_coordinates	analysis/figures/phase2_manuscript/source_data/Figure2a_UMAP_coordinates.tsv.gz	SEALED_FIGURE_SOURCE	Descriptive UMAP only; no inferential use.
+S031	3	celltype_counts_by_donor	analysis/results/GSE206528/celltype_counts_by_donor.tsv	SEALED_RESULT	Donor-by-cell-type composition.
+S032	3	marker_statistics	analysis/results/GSE206528/markers/markers_all.csv	SEALED_RESULT	Descriptive cluster-marker display.
+S033	3	celltype_hallmark_evidence	analysis/results/integration/IH_ED_Hallmark_celltype_evidence.tsv	SEALED_RESULT	Donor-pseudobulk cell-type pathway effects.
+S034	3,4	celltype_gene_evidence	analysis/results/integration/IH_ED_celltype_gene_evidence.tsv	SEALED_RESULT	Donor-pseudobulk gene effects and FDR.
+S035	3,4	pseudobulk_counts	analysis/results/GSE206528/pseudobulk_counts.csv	DESCRIPTIVE_DERIVATION_INPUT	May support donor dots only under a frozen normalization/display rule; no new test.
+S036	3,4	pseudobulk_samples	analysis/results/GSE206528/pseudobulk_samples.csv	DESCRIPTIVE_DERIVATION_INPUT	Maps pseudobulk columns to donors and groups.
+S040	4	candidate_classification_summary	revision_v2/02_results/IH_ED_candidate_classification_summary_v2.tsv	SEALED_RESULT	Three FDR-supported and 563 nominal-P exploratory genes.
+S041	4	candidate_classification_full	revision_v2/02_results/IH_ED_candidate_classification_v2.tsv	SEALED_RESULT	Candidate evidence classes; historical score columns are not plotted.
+S042	4	doublet_gene_sensitivity	revision_v2/01_work/GSE206528_doublet_sensitivity/attempt_02/edgeR_Hallmark/TYMS_EFNB2_LRRC17_sensitivity.tsv	SEALED_RESULT	Before/after doublet exclusion gene effects.
+S043	4	doublet_hallmark_sensitivity	revision_v2/01_work/GSE206528_doublet_sensitivity/attempt_02/edgeR_Hallmark/Hallmark_sensitivity_comparison.tsv	SEALED_RESULT	Before/after doublet exclusion pathway effects.
+S044	4	doublet_candidate_class	revision_v2/02_results/figure_source_data/Figure3_candidate_sensitivity_class_source_data_v2.tsv	SEALED_FIGURE_SOURCE	Candidate-class preservation after sensitivity analysis.
+S050	5	ml_predictions	analysis/results/phase2/machine_learning/nested_LODO_predictions.tsv	SEALED_RESULT	Twenty held-out sample predictions.
+S051	5	ml_pooled_metrics	analysis/results/phase2/machine_learning/nested_LODO_pooled_metrics.tsv	SEALED_RESULT	Pooled AUC, interval, and exact permutation result.
+S052	5	ml_dataset_metrics	analysis/results/phase2/machine_learning/nested_LODO_per_dataset_metrics.tsv	SEALED_RESULT	Dataset-specific heterogeneity.
+S053	5	ml_feature_stability	analysis/results/phase2/machine_learning/feature_stability.tsv	SEALED_RESULT	Outer-fold feature stability.
+S054	5	ml_selected_features	analysis/results/phase2/machine_learning/selected_features_by_outer_fold.tsv	SEALED_RESULT	Per-fold selected features.
+S060	6	vp_donor_stability	revision_v2/07_virtual_perturbation/06_consensus/donor_stability.tsv	SEALED_RESULT	Seed Spearman and Top-200 Jaccard summaries.
+S061	6	vp_seed_spearman	revision_v2/07_virtual_perturbation/06_consensus/seed_pairwise_spearman.tsv	SEALED_RESULT	Pairwise seed stability.
+S062	6	vp_seed_jaccard	revision_v2/07_virtual_perturbation/06_consensus/seed_pairwise_top200_jaccard.tsv	SEALED_RESULT	Pairwise Top-200 stability.
+S063	6	vp_ed_gsea	revision_v2/07_virtual_perturbation/07_enrichment/v1/ed_signature_gsea.tsv	SEALED_RESULT	ED_UP_FDR ranked enrichment; ED_DOWN_FDR is not tested by size rule.
+S064	6	vp_top5_overlap	revision_v2/07_virtual_perturbation/07_enrichment/v1/ed_top5_overlap.tsv	SEALED_RESULT	Top-5-percent overlap tests and within-target FDR.
+S065	6	vp_gene_set_eligibility	revision_v2/07_virtual_perturbation/07_enrichment/v1/gene_set_eligibility.tsv	SEALED_RESULT	Source for NOT_TESTED_SIZE_3 boundary.
+S066	6	vp_matched_calibration	revision_v2/07_virtual_perturbation/06_consensus/negative_control_calibration_v2/negative_control_calibration.tsv	SEALED_RESULT	Matched-control empirical calibration.
+S070	7	vp_hypoxia_formal	revision_v2/07_virtual_perturbation/07_enrichment/v1/hypoxia_primary_summary.tsv	SEALED_RESULT	Formal VP-G06 Hypoxia result.
+S071	7	vp_es01_multiverse	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_03/06_analysis_multiverse.tsv	SEALED_EXPLORATORY_RESULT	S0-S3 target-level specification results.
+S072	7	vp_es01_seed_results	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_02/03_target_donor_seed_hypoxia.tsv	SEALED_EXPLORATORY_RESULT	Forty-five seed-level Hypoxia results.
+S073	7	vp_es01_leave_seed	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_02/04_leave_one_seed_out.tsv	SEALED_EXPLORATORY_RESULT	Forty-five leave-one-seed-out results.
+S074	7	vp_es01_leave_donor	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_02/04_leave_one_donor_out.tsv	SEALED_EXPLORATORY_RESULT	Nine leave-one-donor-out results.
+S075	7	vp_es01_matched_controls	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_02/05_target_vs_matched_controls.tsv	SEALED_EXPLORATORY_RESULT	Signed and conservative absolute empirical calibration.
+S076	7	vp_es01_leading_edge	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_02/05_leading_edge_stability.tsv	SEALED_EXPLORATORY_RESULT	Leading-edge Jaccard comparisons.
+S077	7	vp_es01_mapping_qc	revision_v2/07_virtual_perturbation/10_exploratory_hypoxia_sensitivity/attempt_20260910_03/06_hypoxia_mapping_qc.tsv	SEALED_EXPLORATORY_RESULT	191 of 200 exact-symbol mapping result and missing members.
+S080	8	cell_communication_edges	analysis/results/phase3/cell_communication/all_tested_ligand_receptor_edges.tsv	SEALED_RESULT	All 60,299 tested edges and exact label-permutation P values.
+S081	8	cell_communication_summary	analysis/results/phase3/cell_communication/analysis_summary.json	SEALED_RESULT	Donor unit and global communication summary.
+S082	8	power_mde	analysis/results/phase3/power_sensitivity/minimum_detectable_effects.tsv	SEALED_RESULT	Minimum detectable effect by donor design.
+S083	8	power_sample_size	analysis/results/phase3/power_sensitivity/sample_size_for_standardized_effects.tsv	SEALED_RESULT	Idealized equal-group sample-size curve.
+S084	8	g07_coverage	revision_v2/07_virtual_perturbation/08_external_reference/public_perturbation_target_coverage.tsv	SEALED_EXTERNAL_COVERAGE	T1-T5 coverage matrix; coverage is not validation.
+S085	8	g07_report	revision_v2/07_virtual_perturbation/08_external_reference/VP_G07_external_scope_report.md	SEALED_EXTERNAL_COVERAGE	Bounded audit interpretation.

@@ -1,0 +1,67 @@
+strategy	strategy_label	FPR	TPR	frozen_ROC_AUC
+gene_rank	Gene rank	0.0	0.0	0.8
+gene_rank	Gene rank	0.0	0.1	0.8
+gene_rank	Gene rank	0.0	0.2	0.8
+gene_rank	Gene rank	0.0	0.3	0.8
+gene_rank	Gene rank	0.1	0.3	0.8
+gene_rank	Gene rank	0.1	0.4	0.8
+gene_rank	Gene rank	0.2	0.4	0.8
+gene_rank	Gene rank	0.2	0.5	0.8
+gene_rank	Gene rank	0.3	0.5	0.8
+gene_rank	Gene rank	0.3	0.6	0.8
+gene_rank	Gene rank	0.3	0.7	0.8
+gene_rank	Gene rank	0.3	0.8	0.8
+gene_rank	Gene rank	0.3	0.9	0.8
+gene_rank	Gene rank	0.4	0.9	0.8
+gene_rank	Gene rank	0.5	0.9	0.8
+gene_rank	Gene rank	0.5	1.0	0.8
+gene_rank	Gene rank	0.6	1.0	0.8
+gene_rank	Gene rank	0.7	1.0	0.8
+gene_rank	Gene rank	0.8	1.0	0.8
+gene_rank	Gene rank	0.9	1.0	0.8
+gene_rank	Gene rank	1.0	1.0	0.8
+gene_rank	Gene rank	1.0	1.0	0.8
+Hallmark_rank_score	Hallmark rank	0.0	0.0	0.62
+Hallmark_rank_score	Hallmark rank	0.0	0.1	0.62
+Hallmark_rank_score	Hallmark rank	0.0	0.2	0.62
+Hallmark_rank_score	Hallmark rank	0.0	0.3	0.62
+Hallmark_rank_score	Hallmark rank	0.1	0.3	0.62
+Hallmark_rank_score	Hallmark rank	0.2	0.3	0.62
+Hallmark_rank_score	Hallmark rank	0.3	0.3	0.62
+Hallmark_rank_score	Hallmark rank	0.3	0.4	0.62
+Hallmark_rank_score	Hallmark rank	0.3	0.5	0.62
+Hallmark_rank_score	Hallmark rank	0.3	0.6	0.62
+Hallmark_rank_score	Hallmark rank	0.4	0.6	0.62
+Hallmark_rank_score	Hallmark rank	0.5	0.6	0.62
+Hallmark_rank_score	Hallmark rank	0.6	0.6	0.62
+Hallmark_rank_score	Hallmark rank	0.6	0.7	0.62
+Hallmark_rank_score	Hallmark rank	0.7	0.7	0.62
+Hallmark_rank_score	Hallmark rank	0.7	0.8	0.62
+Hallmark_rank_score	Hallmark rank	0.8	0.8	0.62
+Hallmark_rank_score	Hallmark rank	0.8	0.9	0.62
+Hallmark_rank_score	Hallmark rank	0.8	1.0	0.62
+Hallmark_rank_score	Hallmark rank	0.9	1.0	0.62
+Hallmark_rank_score	Hallmark rank	1.0	1.0	0.62
+Hallmark_rank_score	Hallmark rank	1.0	1.0	0.62
+adaptive	Adaptive	0.0	0.0	0.54
+adaptive	Adaptive	0.0	0.1	0.54
+adaptive	Adaptive	0.0	0.2	0.54
+adaptive	Adaptive	0.0	0.3	0.54
+adaptive	Adaptive	0.1	0.3	0.54
+adaptive	Adaptive	0.2	0.3	0.54
+adaptive	Adaptive	0.3	0.3	0.54
+adaptive	Adaptive	0.4	0.3	0.54
+adaptive	Adaptive	0.5	0.3	0.54
+adaptive	Adaptive	0.5	0.4	0.54
+adaptive	Adaptive	0.6	0.4	0.54
+adaptive	Adaptive	0.6	0.5	0.54
+adaptive	Adaptive	0.6	0.6	0.54
+adaptive	Adaptive	0.6	0.7	0.54
+adaptive	Adaptive	0.7	0.7	0.54
+adaptive	Adaptive	0.7	0.8	0.54
+adaptive	Adaptive	0.8	0.8	0.54
+adaptive	Adaptive	0.8	0.9	0.54
+adaptive	Adaptive	0.8	1.0	0.54
+adaptive	Adaptive	0.9	1.0	0.54
+adaptive	Adaptive	1.0	1.0	0.54
+adaptive	Adaptive	1.0	1.0	0.54

@@ -1,0 +1,121 @@
+strategy	sample_accession	dataset	true_label	probability_IH	predicted_label	selected_space	inner_mean_AUC	best_params	strategy_label	true_label_display	display_group
+gene_rank	GSM6204609	GSE205050	0	0.5017688511252003	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	Control	"GSE205050
+Control"
+gene_rank	GSM6204610	GSE205050	0	0.5247487998067547	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	Control	"GSE205050
+Control"
+gene_rank	GSM6204611	GSE205050	0	0.504964386981116	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	Control	"GSE205050
+Control"
+gene_rank	GSM6204615	GSE205050	1	0.471658579283696	0	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	IH	"GSE205050
+IH"
+gene_rank	GSM6204616	GSE205050	1	0.4807833390751926	0	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	IH	"GSE205050
+IH"
+gene_rank	GSM6204617	GSE205050	1	0.5030853025451967	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Gene rank	IH	"GSE205050
+IH"
+gene_rank	GSM7777524	GSE243023	0	0.2917129374471744	0	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE243023
+Control"
+gene_rank	GSM7777525	GSE243023	0	0.0852878247177746	0	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE243023
+Control"
+gene_rank	GSM7777526	GSE243023	0	0.0891706405506197	0	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE243023
+Control"
+gene_rank	GSM7777536	GSE243023	1	0.6791181670418779	1	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE243023
+IH"
+gene_rank	GSM7777537	GSE243023	1	0.3791061699692257	0	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE243023
+IH"
+gene_rank	GSM7777538	GSE243023	1	0.3157219545786571	0	gene_rank	0.5694444444444444	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE243023
+IH"
+gene_rank	GSM307874	GSE10723	0	0.0115163622463888	0	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE10723
+Control"
+gene_rank	GSM307875	GSE10723	0	0.2996440713002727	0	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE10723
+Control"
+gene_rank	GSM307876	GSE10723	0	0.0063014069849378	0	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE10723
+Control"
+gene_rank	GSM307877	GSE10723	0	0.0472114813605167	0	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	Control	"GSE10723
+Control"
+gene_rank	GSM307878	GSE10723	1	0.718019693839436	1	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE10723
+IH"
+gene_rank	GSM307879	GSE10723	1	0.5240547217152911	1	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE10723
+IH"
+gene_rank	GSM307880	GSE10723	1	0.2911366669196855	0	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE10723
+IH"
+gene_rank	GSM307881	GSE10723	1	0.9504950926727848	1	gene_rank	0.888888888888889	"{""model__C"": 0.01, ""select__k"": ""all""}"	Gene rank	IH	"GSE10723
+IH"
+Hallmark_rank_score	GSM6204609	GSE205050	0	0.7414434974664845	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE205050
+Control"
+Hallmark_rank_score	GSM6204610	GSE205050	0	0.7494504492143592	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE205050
+Control"
+Hallmark_rank_score	GSM6204611	GSE205050	0	0.7422330794921321	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE205050
+Control"
+Hallmark_rank_score	GSM6204615	GSE205050	1	0.7747732036949666	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE205050
+IH"
+Hallmark_rank_score	GSM6204616	GSE205050	1	0.7925646273082156	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE205050
+IH"
+Hallmark_rank_score	GSM6204617	GSE205050	1	0.7841901229778158	1	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE205050
+IH"
+Hallmark_rank_score	GSM7777524	GSE243023	0	0.5686933722689441	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE243023
+Control"
+Hallmark_rank_score	GSM7777525	GSE243023	0	0.5671773856831237	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE243023
+Control"
+Hallmark_rank_score	GSM7777526	GSE243023	0	0.5169983764126629	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	Control	"GSE243023
+Control"
+Hallmark_rank_score	GSM7777536	GSE243023	1	0.6179674040005511	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE243023
+IH"
+Hallmark_rank_score	GSM7777537	GSE243023	1	0.6017640943800988	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE243023
+IH"
+Hallmark_rank_score	GSM7777538	GSE243023	1	0.5766277146539246	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Hallmark rank	IH	"GSE243023
+IH"
+Hallmark_rank_score	GSM307874	GSE10723	0	0.3989663390314344	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	Control	"GSE10723
+Control"
+Hallmark_rank_score	GSM307875	GSE10723	0	0.4254973771665506	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	Control	"GSE10723
+Control"
+Hallmark_rank_score	GSM307876	GSE10723	0	0.376332549703098	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	Control	"GSE10723
+Control"
+Hallmark_rank_score	GSM307877	GSE10723	0	0.4483673514752409	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	Control	"GSE10723
+Control"
+Hallmark_rank_score	GSM307878	GSE10723	1	0.4308301405323789	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	IH	"GSE10723
+IH"
+Hallmark_rank_score	GSM307879	GSE10723	1	0.4244464414332279	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	IH	"GSE10723
+IH"
+Hallmark_rank_score	GSM307880	GSE10723	1	0.4866212876425466	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	IH	"GSE10723
+IH"
+Hallmark_rank_score	GSM307881	GSE10723	1	0.4170141517050008	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Hallmark rank	IH	"GSE10723
+IH"
+adaptive	GSM6204609	GSE205050	0	0.5017688511252003	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	Control	"GSE205050
+Control"
+adaptive	GSM6204610	GSE205050	0	0.5247487998067547	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	Control	"GSE205050
+Control"
+adaptive	GSM6204611	GSE205050	0	0.504964386981116	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	Control	"GSE205050
+Control"
+adaptive	GSM6204615	GSE205050	1	0.471658579283696	0	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	IH	"GSE205050
+IH"
+adaptive	GSM6204616	GSE205050	1	0.4807833390751926	0	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	IH	"GSE205050
+IH"
+adaptive	GSM6204617	GSE205050	1	0.5030853025451967	1	gene_rank	1.0	"{""model__C"": 0.01, ""select__k"": 5}"	Adaptive	IH	"GSE205050
+IH"
+adaptive	GSM7777524	GSE243023	0	0.5686933722689441	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	Control	"GSE243023
+Control"
+adaptive	GSM7777525	GSE243023	0	0.5671773856831237	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	Control	"GSE243023
+Control"
+adaptive	GSM7777526	GSE243023	0	0.5169983764126629	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	Control	"GSE243023
+Control"
+adaptive	GSM7777536	GSE243023	1	0.6179674040005511	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	IH	"GSE243023
+IH"
+adaptive	GSM7777537	GSE243023	1	0.6017640943800988	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	IH	"GSE243023
+IH"
+adaptive	GSM7777538	GSE243023	1	0.5766277146539246	1	Hallmark_rank_score	0.875	"{""model__C"": 0.01, ""select__k"": ""all""}"	Adaptive	IH	"GSE243023
+IH"
+adaptive	GSM307874	GSE10723	0	0.3989663390314344	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	Control	"GSE10723
+Control"
+adaptive	GSM307875	GSE10723	0	0.4254973771665506	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	Control	"GSE10723
+Control"
+adaptive	GSM307876	GSE10723	0	0.376332549703098	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	Control	"GSE10723
+Control"
+adaptive	GSM307877	GSE10723	0	0.4483673514752409	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	Control	"GSE10723
+Control"
+adaptive	GSM307878	GSE10723	1	0.4308301405323789	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	IH	"GSE10723
+IH"
+adaptive	GSM307879	GSE10723	1	0.4244464414332279	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	IH	"GSE10723
+IH"
+adaptive	GSM307880	GSE10723	1	0.4866212876425466	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	IH	"GSE10723
+IH"
+adaptive	GSM307881	GSE10723	1	0.4170141517050008	0	Hallmark_rank_score	1.0	"{""model__C"": 0.01, ""select__k"": 10}"	Adaptive	IH	"GSE10723
+IH"

@@ -1,0 +1,8 @@
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) != 1L) stop("Usage: Rscript 07c_run_g06_enrichment_seed_compat.R <vp_root>")
+source_path <- file.path(normalizePath(args[[1L]], winslash = "/", mustWork = TRUE), "scripts", "07_run_g06_enrichment.R")
+source_lines <- readLines(source_path, warn = FALSE, encoding = "UTF-8")
+patched_lines <- gsub("freeze$random_seed", "freeze$method$random_seed", source_lines, fixed = TRUE)
+if (identical(source_lines, patched_lines)) stop("Expected frozen field-reference defect was not found")
+if (sum(source_lines != patched_lines) != 2L) stop("Compatibility patch would change an unexpected number of lines")
+eval(parse(text = patched_lines, keep.source = TRUE), envir = new.env(parent = globalenv()))

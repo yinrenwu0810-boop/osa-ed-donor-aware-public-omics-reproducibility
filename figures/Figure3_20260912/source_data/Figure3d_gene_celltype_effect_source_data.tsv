@@ -1,0 +1,22 @@
+gene_symbol	cell_type	ED_logFC	ED_FDR	IH_ED_direction_concordant	evidence_tier	estimate_available	FDR_lt_0_05	cell_type_label
+TYMS	ACKR1_endothelial					False	False	ACKR1 EC
+TYMS	vascular_endothelial	-0.555553877268767	0.792243752821945	True	unranked	True	False	Vascular EC
+TYMS	pericyte					False	False	Pericyte
+TYMS	fibroblast	-2.32192685135268	0.0418815807360207	True	A	True	True	Fibroblast
+TYMS	smooth_muscle					False	False	Smooth muscle
+TYMS	macrophage_myeloid	-0.731832234406743	0.980642500304507	True	unranked	True	False	Macrophage
+TYMS	T_cell					False	False	T cell
+EFNB2	ACKR1_endothelial	-0.180578825313831	0.950312150592472	False	unranked	True	False	ACKR1 EC
+EFNB2	vascular_endothelial	0.103845687035032	0.938268085087532	True	unranked	True	False	Vascular EC
+EFNB2	pericyte	1.11499958113809	0.998973530870328	True	C	True	False	Pericyte
+EFNB2	fibroblast	1.80129329020303	0.0418815807360207	True	A	True	True	Fibroblast
+EFNB2	smooth_muscle	0.418682156165128	0.975763879494588	True	unranked	True	False	Smooth muscle
+EFNB2	macrophage_myeloid	-0.455906808864024	0.980642500304507	False	unranked	True	False	Macrophage
+EFNB2	T_cell	-0.441479483930446	0.910453950919569	False	unranked	True	False	T cell
+LRRC17	ACKR1_endothelial					False	False	ACKR1 EC
+LRRC17	vascular_endothelial	1.42162668283395	0.314903171154662	True	B	True	False	Vascular EC
+LRRC17	pericyte	0.0814727693615232	0.998973530870328	True	unranked	True	False	Pericyte
+LRRC17	fibroblast	2.13444545292636	0.0496330254982467	True	A	True	True	Fibroblast
+LRRC17	smooth_muscle	0.533668225615342	0.953616640796222	True	B	True	False	Smooth muscle
+LRRC17	macrophage_myeloid					False	False	Macrophage
+LRRC17	T_cell					False	False	T cell
