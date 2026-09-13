@@ -32,4 +32,4 @@ Get-Content RELEASE_MANIFEST.sha256.tsv | Select-Object -Skip 1 | ForEach-Object
 
 ## Licence
 
-No licence is granted by this archive. Reuse requires permission from the copyright holder and compliance with the source-data providers' terms.
+This repository uses a dual licence. Source code in `scripts/` is available under the MIT License. Derived figure-level source data and documentation/frozen manifests are available under CC BY 4.0. Read [LICENSE.md](LICENSE.md) for the full scope, attribution conditions, and exclusions for upstream public data.
